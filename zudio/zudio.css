@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&family=Poppins:ital,wght@0,700;1,600&display=swap');
+*{
+    margin: 0;
+}
+.nav{
+    background-color: black;
+    padding-top: 20px;
+    display: flex;
+}
+.log{
+    margin-left: 150px;
+    /* padding-top: 10px; */
+    padding-bottom: 10px;
+}
+
+.new{
+    margin-left: 500px;
+    display: flex;
+}
+.ht{
+    margin-left: 20px;
+    display: block;
+}
+h1{
+    padding-top: 10%;
+    font-size: 120px;
+}
+.text{
+    margin-left: 370px;
+    /* padding-top: 1px;
+    padding-bottom: 1px; */
+}
+.text>a{
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 20px;
+    font-family:'Mulish',sans-serif;
+}
+.second{
+  /* background-image:url("https://cdn.shopify.com/s/files/1/0249/4155/9894/files/Masthead-Banners-Web-07.jpg?v=1679894760"); */
+  /* , url("https://cdn.shopify.com/s/files/1/0249/4155/9894/files/Masthead-Banners-Web-04.jpg?v=1679894638") */
+  
+  height:85vh;
+  width: 100vw;
+   background-size: cover;
+   animation: animate 16s ease-in-out infinite;
+
+}
+@keyframes animate{
+    0%,100%{
+        background-image: url("https://cdn.shopify.com/s/files/1/0249/4155/9894/files/Masthead-Banners-Web-012.jpg?v=1679894459");
+    }
+    25%{
+        background-image: url("https://cdn.shopify.com/s/files/1/0249/4155/9894/files/Masthead-Banners-Mobile-03.jpg?v=1679894608");
+    }
+    50%{
+        background-image: url("https://cdn.shopify.com/s/files/1/0249/4155/9894/files/Masthead-Banners-Mobile-06.jpg?v=1679894732");
+    }
+    75%{
+        background-image: url("https://cdn.shopify.com/s/files/1/0249/4155/9894/files/Masthead-Banners-Mobile-08.jpg?v=1679894850");
+    }
+    30%{
+        background-image:url("https://cdn.shopify.com/s/files/1/0249/4155/9894/files/Masthead-Banners-Mobile-011.jpg?v=1679894998") ;
+    }
+    20%{
+        background-image: url("https://cdn.shopify.com/s/files/1/0249/4155/9894/files/Masthead-Banners-Web-012.jpg?v=1679894459");
+    }
+}
+
+
+.third{
+    margin-left: 30px;
+    padding-top: 100px; 
+    position: relative;
+}
+.te{
+   position: absolute;
+    margin-left:300px;
+    color: #000;
+    background: #fff;
+    padding: 1px 1px 0px 1px;
+    mix-blend-mode: screen;
+    /* transform: translateX(50px) rotate(40deg) translateY(50px); */
+
+}
+.xl{
+    position: absolute;
+    margin-left:280px;
+    color: #000;
+    background: #fff;
+    padding: 1px 1px 0px 1px;
+    mix-blend-mode: screen;
+     transform:rotateZ(140deg) rotateY(10deg);
+}
+.xl>h2{
+    margin-top: 40px;
+    font-size: 10px;  
+}
+.te>h2{
+  margin-top: 30px;
+  font-size: 100px;
+  text-align: center;
+}
+.third li{
+    padding-bottom: 30px;
+    list-style-type: none;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+     font-size: 30px;
+     font-family:'Mulish',sans-serif;
+}
+a:hover{
+    color: aqua;
+}

@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+}
+.nav{
+    background-color: black;
+    
+}
+
+.circle{
+    height: 50px;
+    width: 60px;
+    background-color: rgb(239, 233, 233);
+    border-radius: 60px;
+    margin-left: 30px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.el{
+    padding-top: 23px;
+}
+.navig{
+    background-color: black;
+    margin-left:350px;
+    border-radius: 10px;
+    padding-top:px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    position: fixed;
+    display: flex;
+    /* position: relative; */
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 20px;  
+    border: none;
+    outline: none;
+    padding: 1px 16px; 
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  .dropbtn>a{
+   color:  rgb(127, 130, 133);
+   font-size: 20px;
+   text-decoration: none;
+  }
+.navig>button{
+    background-color: inherit;
+    margin-left: 90px;
+    border: none;
+    outline: none;
+   color: rgb(250, 249, 254);   
+   margin-bottom: 4px;
+}
+
+/* search hear */
+.lb{
+    margin-top: 30px;
+    margin-left: 29px;
+}
+#al{
+    padding-top: 1px;
+    position: absolute;
+}
+/* end*/
+
+#my{
+    border-radius: 20px;
+}
+
+.f1{
+    background-image: url(https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP._SX1440_CR575,0,865,675_QL80_AC_FP_.jpg);
+    height: 126vh;
+    width: 98vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.con{    
+     padding-top:240px;
+     margin-left: 60px;  
+}
+.con>h2{
+ font-size: 70px;
+ color: rgb(223, 239, 239);
+ font-family:'Times New Roman', Times, serif ;
+}
+.con>p{
+    font-size: 25px;
+    padding-bottom: 40px;
+    color: aliceblue;
+}
+.con>button{
+    background-color: rgb(24, 136, 234);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 30px;
+    font-size: 20px;
+    color: antiquewhite;
+}
+.second{
+    background-image: url(https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/TVOD/TVOD_MLP_Left._SX1440_CR0,0,865,675_QL80_AC_FP_.jpg);
+    height: 80vh;
+    width: 90vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.conce{
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: 200px;
+
+}
+.conce>h1{
+    color: antiquewhite;
+    font-size: 50px;
+}
+.conce>p{
+    color: aliceblue;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.conce>button{
+    background-color: rgb(24, 136, 234);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 90px;
+    padding-right: 80px;
+    font-size: 30px;
+    color: antiquewhite;
+    border-radius: 5px;
+}
+.third{
+    margin-top: 30px;
+    margin-left: 80px;
+   
+}
+.ll{
+    position: absolute;
+}
+.ll>h1{
+   font-size: 40px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.ll>p{
+    font-size: 30px;
+}
+
+.multi{
+    position: absolute;
+ margin-left: 900px;
+ margin-bottom:0px ;
+}
+.img5{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position:relative;
+    top: -655px;
+    left: 165px;    
+}
+
+.img6{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position:relative;
+    top: -590px;
+    left: 165px;    
+}
+
+.img7{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position:relative;
+    top: -527px;
+    left: 165px;    
+}
+.img8{
+
+    position:relative;
+    top: -464px;
+    left: 165px;    
+}
+.img9{    
+    position:relative;
+    top: -1120px;
+    left: 330px;     
+}
+.img10{    
+    position:relative;
+    top: -1120px;
+    left: 330px;     
+}
+.img11{    
+    position:relative;
+    top: -1120px;
+    left: 330px;     
+}
+.img12{    
+    position:relative;
+    top: -1120px;
+    left: 330px;     
+}
+
+/*   image hover */
+.img1:hover{
+    -webkit-transform: scale(1.4);
+    transform: scale(1.2);
+}
+.img2:hover{
+    -webkit-transform: scale(1.4);
+    transform: scale(1.2);
+}
+.img3:hover{
+    -webkit-transform: scale(1.4);
+    transform: scale(1.2);
+}
+.img4:hover{
+    -webkit-transform: scale(1.4);
+    transform: scale(1.2);
+}
+.img5:hover{
+    -webkit-transform: scale(1.4);
+    transform: scale(1.2);
+}
+.img6:hover{
+    -webkit-transform: scale(1.4);
+    transform: scale(1.2);
+}
+.img7:hover{
+    -webkit-transform: scale(1.4);
+    transform: scale(1.2);
+}
+.img8:hover{
+    -webkit-transform: scale(1.4);
+    transform: scale(1.2);
+}
+.img9:hover{
+    -webkit-transform: scale(1.4);
+    transform: scale(1.2);
+}
+.img10:hover{
+    -webkit-transform: scale(1.4);
+    transform: scale(1.2);
+}
+.img11:hover{
+    -webkit-transform: scale(1.4);
+    transform: scale(1.2);
+}
+.img12:hover{
+        -webkit-transform: scale(1.4);
+        transform: scale(1.2);
+    }

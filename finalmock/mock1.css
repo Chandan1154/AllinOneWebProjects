@@ -1,0 +1,173 @@
+*{
+    margin: 0px;
+}
+.nav_bar{
+display: flex;
+justify-content: space-between;
+
+}
+
+
+.head>img{
+     margin-left: 60px;
+    padding-left: 40px;
+    margin-top: 10px;
+}
+.lis{
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.lis>a{
+    float: left;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 20px;
+    color: rgb(7, 6, 6);
+}
+
+.bar{
+  margin-top: 20px;
+}
+.bar_i{
+    background-image: url(http://www.nialjewar.com/img/SLIDE_02.jpg);
+    height: 80vh;
+    width: 100vw;
+    background-size: cover; 
+}
+.name{
+      padding-left: 0px;
+    }
+    .lod{
+
+         padding-right: 0px;
+    padding-left: 2px;
+    margin-right: 5px;
+    margin-left:200px; 
+    }
+    .ll{
+        background-color: rgba(0,0,0,0.6);
+           display: flex;  
+           padding: 10px 100px 0px 75px;
+           margin: 500px 40px 1px 1px;
+    } 
+.el{
+
+    display: flex;
+}
+    
+   .lod .logo{ 
+    border-radius: 50%!important;
+    }
+.set{
+    margin-left: 0px;
+    padding-top: 10px;
+
+}    
+.arrow{
+    border: solid rgb(248, 241, 241);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+.set>h3{
+    font-size: 15px;
+    color: #ede7e7;
+}
+  .fz{
+    color:white;
+    font-size: 10px;
+  }
+  .d{
+    border: solid rgb(248, 241, 241);
+    border-width:2px 20px 1px 4px ;
+    margin-bottom: 3px;
+    display: inline-block;
+  }
+  .r{
+    color: aliceblue;
+  }
+  .right{
+    transform: rotate(-45deg);    
+  }
+  
+/* dsjfklmv */
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 20px;  
+    border: none;
+    outline: none;
+    color: rgb(7, 6, 6);
+    padding: 1px 16px; 
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color:white;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+
+
+/*  */
+
+
+.names{
+    margin-left: 1px;
+    background-color: rgb(222, 225, 216); 
+}
+
+.ddd{
+    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 10px;
+    padding-top:  20px;
+    padding-bottom: 20px;
+
+}
+.ddd>a{
+    margin-left: 30px;
+    text-decoration: none;
+}
+.ddd>span{
+    margin-left: 30px;
+}
+
+.ticker{
+  display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 90%;
+    margin: 50px auto 0 80px;
+}
+.news{
+  width: 76%;
+  background: rgb(59, 51, 216);
+  padding: 10px 2%;
+}
+.title{
+  width: 20%;
+  text-align: center;
+  background: #e9eb45;
+  position: relative;
+}
+
+
+.title::after{
+  position: absolute;
+  content: "";
+  right: -180px;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo elements</title>
+    <!-- psuedo  2type pseudo  element and psuedo closses
+   :: first-letter 
+   :: firstline
+    ::before 
+   :: after
+    ::placeholder -->
+    <style>
+        /* p{
+        font-size: 23px;
+    }
+    p::first-letter{
+        color: aqua;
+        font-size: 40px;
+    }
+    p::first-line{
+        color: blue;
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    p::before{
+        content: url(aloha.gif)
+    }
+    p::after{
+        content: url(aloha.gif)
+    }
+    input::placeholder{
+        color: rgb(240, 150, 33);
+    } 
+    
+    focus- only work on button and input tag
+    transition dealy which is slow for the content 
+    
+    */
+
+        h2 {
+            color: aquamarine
+        }
+
+        h2:active {
+            color: red;
+        }
+
+        a {
+            color: brown;
+            font-size: 100px;
+            text-decoration: solid;
+        }
+
+        a:active {
+            color: aqua;
+        }
+
+        a:hover {
+            transition: 10ms;
+        }
+
+        button {
+            color: #1919f0;
+            background-color: aqua;
+        }
+
+        button:focus {
+            padding: 20px;
+        }
+
+        button:hover {
+            transition: 10ms;
+        }
+
+        h1 {
+            color: red;
+            width: 10px;
+        }
+
+        h1:hover {
+            margin-top: 10px;
+            transition: 10ms;
+            transition-delay: 1s;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>message</h1>
+    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos explicabo consequuntur veniam tempora, ab earum qui nisi quisquam voluptatibus illum repellendus similique dicta molestiae laudantium, alias quia, cum libero dolor?</p>
+<input  type="text" placeholder="Enter the name"> -->
+    <h2>click me.......</h2>
+    <a href="">click</a><br>
+    <button>submit</button>
+</body>
+
+</html>

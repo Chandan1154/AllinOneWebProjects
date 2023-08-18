@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task</title>
+    <script src="text.js"></script>
+</head>
+<body>
+    <label for=""> Enter the number of textbox required: 
+    <input type="number" value="number" name="number" id="d1">
+       </label>
+       <br><br>
+      <label for="">Which background color you required:
+        <input type="color" name="color" id="n2">
+      </label>
+      <br><br>  
+      <input type="button" id="btn1" value="Create" onclick="sample()">
+      <br><br>
+     <input id="output1" type="text" >  <input id="output2" type="text">
+
+     <script>
+
+    
+// function sample() {
+//     var a = document.getElementById("d1")
+//     var b = a.value;
+    
+// }
+
+            function sample() 
+            {
+                  var a = document.getElementById("n2");
+                  console.log(a.value);
+                  var o1 = document.getElementById("output1");
+                  var o2 = document.getElementById("output2");
+                  o1.style.backgroundColor = a.value;
+                  o2.style.backgroundColor = a.value;
+            }
+
+            
+     </script>
+</body>
+</html>

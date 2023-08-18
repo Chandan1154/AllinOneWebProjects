@@ -1,0 +1,93 @@
+@import url(//db.onlinewebfonts.com/c/23fe921c6f711d75677bd6b351ac9418?family=Daimler+CS);
+
+* {
+    margin: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.hed {
+    background-color: black;
+    align-items: center;
+    padding-top: 10px;
+    display: flex;
+}   
+.title {
+    align-items: center;
+    padding-left: 100px;
+    margin-left: 30px;
+}
+img {
+    margin-left: 31%;
+}
+input{
+    padding:9px 10px 9px 90px;
+    margin-top: 100px;
+}
+.tag {
+    border-radius: 10px;
+    margin-left: 65%;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+}
+.mer {
+    background-image: url(https://www.mercedes-benz.co.in/content/india/en/passengercars/_jcr_content/root/responsivegrid/simple_stage_1564354_1682158709.component.damq6.3362242986503.jpg/Banner_3840x1707.jpg);
+    height: 90vh;
+    width: 99vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.b {
+    background-color: black;
+    padding: 10px 0px;
+}
+
+.b>p {
+    color: aliceblue;
+    text-align: center;
+}
+
+.na {
+    background-color: black;
+    /* height: 50px; */
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+li {
+    display: inline;
+    color: antiquewhite;
+    padding: 0px 0px 0px 30px;
+    margin: 150px 0px 0px 30px;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(102, 0, 255);
+}
+
+.mer>p {
+    font-size: 50px;
+    color: #fff;
+    margin-left: 180px;
+    padding-top: 220px;
+    font-family: 'var(--wb-font-title)';
+}
+
+.mer>button {
+    font-size: 20px;
+    display: flex;
+    margin: 150px 0px 0px 179px;
+    padding: 10px 40px 10px 40px;
+    text-align: center;
+    background-color: #0078d6;
+}
+
+.mer>button:hover {
+    background-color: blue;
+}

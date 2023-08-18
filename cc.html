@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prank Website</title>
+    <style>
+        body {
+            background-color: black;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+        h1 {
+            font-size: 3rem;
+            margin-top: 30vh;
+        }
+        button {
+            font-size: 1.5rem;
+            padding: 10px 20px;
+            cursor: pointer;
+            background-color: red;
+            border: none;
+            color: white;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: darkred;
+        }
+    </style>
+</head>
+<body>
+    <h1>WARNING: Click the button at your own risk!</h1>
+    <button onclick="prank()">Click me</button>
+    <script>
+        function prank() {
+            alert("You just got cucked!");
+        }
+    </script>
+</body>
+</html>

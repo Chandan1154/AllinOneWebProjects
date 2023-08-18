@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice</title>
+</head>
+<body>
+    <h1>heading</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed suscipit, <br>voluptas provident modi commodi in quia nisi adipisci cum blanditiis dolor reiciendis velit dolorem nulla quis mollitia voluptates voluptatum. Nobis.</p>
+   <input id="d1" type="text">
+   
+    <button onclick="sample()">add</button>
+   <div>
+
+   </div>
+    <script>
+        function sample(){ 
+            var data = document.getElementById("d1");
+            console.log(data.value);
+            for(var i=1; i<= +(data.value); i++) 
+            {
+                var a = document.createElement("input");
+                a.type = "text";
+                
+                var b = document.getElementsByTagName('div')
+                b[0].append(a)
+             }
+        }
+    </script>
+</body>
+</html>

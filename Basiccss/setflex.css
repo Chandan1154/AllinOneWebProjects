@@ -1,0 +1,84 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.navbar select{
+    height: 30px;
+    width: 100px;
+}
+.navbar button{
+    height: 30px;
+    width: 100px;
+}
+.background{
+    background-color: rgb(14, 14, 63);
+    height: 200vh;
+    width: 100vw;
+    background-size: cover;
+}
+* {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.image{
+    background-image: url(https://cdn.wallpapersafari.com/24/74/zgeTuV.jpg);
+    height: 89vh;
+    margin: 17px 57px;
+    
+}
+.image h1{
+    padding-top: 200px;
+    color: white;
+    font-size: 77px;
+    margin: 20px 50px;
+
+}
+.image h2{
+    color: white;
+    font-size: 57px;
+    margin: 20px 50px;
+
+}
+.image button{
+    background-color: brown;
+    color: white;
+    
+}
+.image p{
+    color: white;
+    font-size: 27px;
+    margin: 20px 50px;
+}
+.image input{
+    height:50px;
+    width: 400px;
+    margin-left: 69px;
+
+}
+.image button{
+    height:50px;
+    width: 150px;
+}
+.another p{
+    color: white;
+    font-size: 27px;
+
+}
+.another p strong{
+    font-size: 70px;
+}
+.another{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar logo{
+    height: 0px;
+    width: 0px;
+}
+.navbar button{
+    background-color: brown;
+    color: white;
+}

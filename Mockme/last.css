@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+}
+.nav{
+background-color: rgb(19, 18, 18);
+}
+.nav>h5{
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 740px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.f1{
+    background-color: black;
+ 
+}
+.mg{
+    margin-left: 50px;
+}
+

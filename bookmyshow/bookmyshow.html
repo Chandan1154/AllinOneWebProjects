@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <title>Movie Tickets, Plays, Sports, Events & Cinemas near Bengaluru - BookMyShow</title>
+</head>
+<style>
+    * {
+        margin: 0px;
+
+    }
+
+    .top-of-page {
+        margin: 0px 30px 6px 90px;
+        padding-top: 5px;
+        display: flex;
+    }
+
+    .top {
+        background-color: rgb(51, 53, 69);
+    }
+
+    .search {
+        margin-top: 6px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: calc(43%);
+        height: calc(60%);
+        font-size: 8px;
+        border-radius: 4px;
+    }
+
+    .opt {
+        height: 20px;
+        font-size: 6px;
+        margin-left: 160px;
+        margin-top: 8px;
+        color: white;
+        background-color: rgb(51, 53, 69);
+    }
+
+    .btn {
+        font-size: 8px;
+        height: 15px;
+        text-align: center;
+        margin-left: 15px;
+        padding-bottom: 0px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 2px;
+        margin-top: 11px;
+        background-color: rgb(248, 68, 100);
+    }
+
+    .ham {
+        margin-top: 10px;
+        margin-left: 15px;
+        background-color: rgb(51, 53, 69);
+    }
+
+    .navi {
+        background-color: rgb(24, 25, 33);
+        display: flex;
+    }
+
+    .ls {
+        padding-top: 4px;
+        margin-left: 40px;
+    }
+
+    li {
+        color: aliceblue;
+        margin-left: 15px;
+        font-size: 7px;
+        display: inline;
+    }
+
+    #id {
+        text-decoration: none;
+    }
+
+    li:hover {
+        color: aqua;
+    }
+
+    #l1 {
+        font-size: 0px;
+        margin-left: 180px;
+        padding-top: 10px;
+    }
+
+    .maq {
+        background-color: rgb(141, 142, 145);
+
+    }
+
+    #mg {
+        margin-top: 5px;
+        height: 200px;
+        width: 500px;
+    }
+
+    .recom {
+        margin-left: 40px;
+    }
+
+    .recom>h1 {
+        font-size: 15px;
+        color: rgb(51, 51, 51);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 18px;
+        margin-left: 30px;
+    }
+
+    .img {
+        display: inline;
+        border-radius: 10px;
+        height: 250px;
+        margin-left: 5px;
+    }
+
+    .le {
+        margin-top: 10px;
+        margin-left: 10px;
+
+    }
+
+    #show {
+        box-shadow: rgb(28, 180, 11);
+    }
+
+    .las {
+        color: black;
+        font-size: 10px;
+        margin-right: 46px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .clas {
+        display: flex;
+        padding-bottom: 3px;
+    }
+
+    #r1 {
+        color: rgba(0, 0, 0, 0.79);
+        font-size: 9px;
+    }
+
+    #r2 {
+        color: rgba(0, 0, 0, 0.79);
+        font-size: 9px;
+        padding-left: 20px;
+    }
+
+    #r3 {
+        color: rgba(0, 0, 0, 0.79);
+        font-size: 9px;
+        padding-left: 70px;
+    }
+
+    #r4 {
+        color: rgba(0, 0, 0, 0.79);
+        font-size: 9px;
+        padding-left: 80px;
+    }
+
+    #r5 {
+        color: rgba(0, 0, 0, 0.79);
+        font-size: 9px;
+        padding-left: 60px;
+    }
+
+    #aa {
+
+        text-decoration: none;
+    }
+    .cet{
+          padding-top: 50px;
+          box-shadow:rgb(248, 68, 100);
+    }
+    .i{
+        width: 800px;
+        margin-left: 40px;
+    }
+ 
+</style>
+
+<body>
+    <div class="top">
+        <div class="top-of-page">
+            <a href="bookmyshow.html" target="_self"><img src="boookmylogo.png" height="35px" width="60px"></a>
+            <!-- <span><svg viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg"><title>Search</title><path d="M11.8 10.864L8.859 7.918a4.912 4.912 0 0 0-.444-6.47A4.888 4.888 0 0 0 4.928 0a4.888 4.888 0 0 0-3.485 1.449 4.942 4.942 0 0 0 0 6.979 4.888 4.888 0 0 0 3.485 1.449c1.052 0 2.105-.33 2.976-1.005l2.96 2.93a.658.658 0 0 0 .476.198.686.686 0 0 0 .477-.198.672.672 0 0 0-.016-.938zm-6.855-2.32c-.97 0-1.858-.38-2.549-1.054C1 6.09 1 3.802 2.396 2.387a3.578 3.578 0 0 1 2.549-1.054c.97 0 1.858.379 2.548 1.054s1.052 1.58 1.052 2.551c0 .971-.378 1.86-1.052 2.552a3.539 3.539 0 0 1-2.548 1.053z" fill="#777"></path></svg></span> -->
+            <input class="search" type="search" name="search" id="h1"
+                placeholder="Search for Movies, Events, Plays, Sports and Activities">
+            <select class="opt" name="city" id="ck">
+                <option value="blr">Bangaluru</option>
+                <option value="blr">Mysore</option>
+            </select>
+            <a href="#" class="btn btn-primary" role="button" aria-pressed="true">Sign in</a>
+            <a href="bookmyshow.html"><img class="ham" src="hamburg.png" alt="" height="15px"></a>
+        </div>
+        <div class="navi">
+            <div class="ls">
+                <ul>
+                    <a id="id" href="">
+                        <li>Movies</li>
+                    </a>
+                    <a id="id" href="">
+                        <li>Stream <sup>
+                                <font color="red">NEW</font>
+                            </sup></li>
+                    </a>
+                    <a id="id" href="">
+                        <li>Events</li>
+                    </a>
+                    <a id="id" href="">
+                        <li>Plays</li>
+                    </a>
+                    <a id="id" href="">
+                        <li>Sports</li>
+                    </a>
+                    <a id="id" href="">
+                        <li>Activites</li>
+                    </a>
+                    <a id="id" href="">
+                        <li>Buzz</li>
+                    </a>
+                </ul>
+            </div>
+            <div id="l1">
+                <ul>
+                    <a id="id" href="">
+                        <li>ListYourShow</li>
+                    </a>
+                    <a id="id" href="">
+                        <li>Corpaters</li>
+                    </a>
+                    <a id="id" href="">
+                        <li>Offers</li>
+                    </a>
+                    <a id="id" href="">
+                        <li>Gift Cards</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="maq">
+        <marquee behavior="alternate" direction="" scrollamount="20" scrolldelay="300">
+            <a href="bookmyshow.html"><img id="mg" src="images (2).jpg" alt=""></a>
+            <a href="bookmyshow.html"><img id="mg" src="images.jpg" alt=""></a>
+            <a href="bookmyshow.html"><img id="mg" src="download.jpg" alt=""></a>
+            <a href="bookmyshow.html"><img id="mg" src="download (1).jpg" alt=""></a>
+            <a href="bookmyshow.html"><img id="mg" src="Screenshot_71.png" alt=""></a>
+        </marquee>
+    </div>
+    <div id="show">
+        <div class="recom">
+            <h1>Recommended Movies</h1>
+            <a href=""> <img class="img" src="et00058086-hvqdkpffsx-portrait.avif"></a>
+            <a href=""><img class="img" src="et00122562-lrytmektpf-portrait.avif" alt=""></a>
+            <a href=""><img class="img" src="et00310794-msktjjevtm-portrait.avif" alt=""></a>
+            <a href=""><img class="img" src="et00343918-mhhcapkzpz-portrait.avif" alt=""></a>
+            <a href=""><img class="img" src="et00324847-xafhulzftw-portrait.avif" alt=""></a>
+        </div>
+        <div class="le">
+            <ul>
+                <a id="aa" href="bookmyshow.html">
+                    <li class="las">The Little Mermaid</li>
+                </a>
+                <a id="aa" href="bookmyshow.html">
+                    <li class="las">Action/Adventure/Crime/Thriller</li>
+                </a>
+                <a id="aa" href="bookmyshow.html">
+                    <li class="las">Pichaikkaran 2</li>
+                </a>
+                <a id="aa" href="bookmyshow.html">
+                    <li class="las">The Kerala Story </li>
+                </a>
+                <a id="aa" href="bookmyshow.html">
+                    <li class="las">Guardians of the Galaxy Vol. 3</li>
+                </a>
+            </ul>
+            <div class="clas">
+                <ul>
+                    <a id="aa" href="bookmyshow.html">
+                        <li id="r1">Adventure/Family/Fantasy</li>
+                    </a>
+                    <a id="aa" href="bookmyshow.html">
+                        <li id="r2">Action/Adventure/Crime/Thriller</li>
+                    </a>
+                    <a id="aa" href="bookmyshow.html">
+                        <li id="r3">Action/Thriller</li>
+                    </a>
+                    <a id="aa" href="bookmyshow.html">
+                        <li id="r4">Drama </li>
+                    </a>
+                    <a id="aa" href="bookmyshow.html">
+                        <li id="r5">Action/Adventure/Comedy/Sci-Fi</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="cet">
+        <a href=""><img class="i" src="stream-leadin-web-collection-202210241242.png"></a>
+  
+    </div>
+    
+    <style>
+        .h2-2{
+            font-size: 10px;
+            margin-left: 50px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+        }
+        .most{
+            paddin-top: 10px;
+        }
+    </style>
+    <div class="most">
+        <h2 class="h2-2">The Best Of Live Events</h2>
+
+
+    </div>
+
+    </div>
+    </div>
+    </div>
+</body>
+
+
+</html>
